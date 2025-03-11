@@ -8,4 +8,4 @@ A CI (Continuous Integration) script to automatically check the quanlily of sour
 ...
 
 ##Screen-shots 
-![Project Screenshot](/screenshots/project_screenshot.png)
+![Project Screenshot](/screenshots/JUnit with DDT.png)
