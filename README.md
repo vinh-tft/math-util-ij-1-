@@ -8,4 +8,4 @@ A CI (Continuous Integration) script to automatically check the quanlily of sour
 ...
 
 ##Screen-shots 
-![math-util-ij-1-](/screenshots/JUnit_with_DDT.png)
+![JUnit with DDT](screenshots/JUnit%20with%20DDT.png)
