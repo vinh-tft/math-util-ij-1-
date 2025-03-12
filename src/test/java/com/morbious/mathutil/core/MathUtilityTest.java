@@ -6,8 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MathUtilityTest {
 
-
-
     @Test
     public void testFactorialGivenRightArg4RunsWell() {
 
@@ -52,4 +50,6 @@ class MathUtilityTest {
 
         assertEquals(expectedResult, actualValue);
     }
+
+
 }

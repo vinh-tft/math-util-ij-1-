@@ -13,6 +13,8 @@ public class MathUtility {
     // quy ước hàm này chỉ tính n từ 0 ... 20
     //code hàm th cx đồng thời phải kiểm thử hàm, muốn kiểm thử phải có test case !!!!
 
+
+
     public static long getFactorial (int n) {
         if (n < 0 || n > 20) {
             //return -1;
@@ -24,12 +26,11 @@ public class MathUtility {
         // khỏi viết else cho code đẹp
         // n bắt đầu từ 1 ...
         //thuật toán con heo đất, nhân dồn cộng dồn
-        long result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i; // i bị nhân dồn vào result = result * i
-        }
+       if(n == 0){
+           return 1;
+       }
 
-        return result;
+       return n * getFactorial(n-1);
     }
 
     //> TEST CASE #1
